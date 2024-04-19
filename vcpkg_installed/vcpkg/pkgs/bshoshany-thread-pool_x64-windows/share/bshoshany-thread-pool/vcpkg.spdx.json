@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/bshoshany-thread-pool-x64-windows-3.5.0-f93d5fd6-1f6f-4269-a856-275a28e859ab",
+  "name": "bshoshany-thread-pool:x64-windows@3.5.0 037f6c1089775827bedf0edefaf652083651a03a40c713e2347ae069d4f007e4",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-1c9ec1978a6b0c2b39c9e9554a96e3e275f7556e"
+    ],
+    "created": "2024-02-23T03:38:30Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "bshoshany-thread-pool",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "3.5.0",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@ed9b93bfd6a7031b7d96fa5443873f4c2634a049",
+      "homepage": "https://github.com/bshoshany/thread-pool",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "BS::thread_pool: a fast, lightweight, and easy-to-use C++17 thread pool library",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "bshoshany-thread-pool:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "037f6c1089775827bedf0edefaf652083651a03a40c713e2347ae069d4f007e4",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "MIT",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "bshoshany/thread-pool",
+      "downloadLocation": "git+https://github.com/bshoshany/thread-pool@v3.5.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "43200acf989adbabc0478d847931d2e46c4ce13de9d28f2e603e6b86d38a7370c0e50bacd36bff5a1a200f33ae6394764adc64ce9a54df5e418d85fb525b4b3f"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/lando/AppData/Local/vcpkg/registries/git-trees/ed9b93bfd6a7031b7d96fa5443873f4c2634a049/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "0e5da211ebb0713bba6a7290936fbd50e5174ea7a37c30a6470a7b1fafb5693c"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/lando/AppData/Local/vcpkg/registries/git-trees/ed9b93bfd6a7031b7d96fa5443873f4c2634a049/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "10571a47dcc8f62368b7cda89e290b8f4c31a31681a39c52b771b52715f8e1d8"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

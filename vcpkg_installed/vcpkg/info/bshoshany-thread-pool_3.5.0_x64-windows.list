@@ -1,0 +1,9 @@
+x64-windows/
+x64-windows/include/
+x64-windows/include/BS_thread_pool.hpp
+x64-windows/include/BS_thread_pool_light.hpp
+x64-windows/share/
+x64-windows/share/bshoshany-thread-pool/
+x64-windows/share/bshoshany-thread-pool/copyright
+x64-windows/share/bshoshany-thread-pool/vcpkg.spdx.json
+x64-windows/share/bshoshany-thread-pool/vcpkg_abi_info.txt

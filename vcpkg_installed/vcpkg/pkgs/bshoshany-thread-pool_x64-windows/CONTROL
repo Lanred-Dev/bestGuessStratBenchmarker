@@ -1,0 +1,7 @@
+Package: bshoshany-thread-pool
+Version: 3.5.0
+Architecture: x64-windows
+Multi-Arch: same
+Maintainer: Barak Shoshany <baraksh@gmail.com>
+Abi: 037f6c1089775827bedf0edefaf652083651a03a40c713e2347ae069d4f007e4
+Description: BS::thread_pool: a fast, lightweight, and easy-to-use C++17 thread pool library
